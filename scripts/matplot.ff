@@ -1,0 +1,57 @@
+fixed x := 10;
+fixed y := 20;
+fixed z := 30;
+
+try
+    # Plotting in 3D
+    graphics.plot_3d(x, y, z, xlabel="X", ylabel="Y", zlabel="Z", title="3D Plot");
+
+    # Displaying an image
+    graphics.imshow(image, cmap="gray", title="Random Image");
+
+    # Creating a contour plot
+    graphics.contour(X, Y, Z, cmap="viridis");
+
+    # Displaying a box plot
+    graphics.boxplot(data, labels=["A", "B", "C"]);
+
+    # Displaying a violin plot
+    graphics.violinplot(data, labels=["A", "B", "C"]);
+
+    # Adding error bars to a plot
+    graphics.errorbar(x, y, x_err, y_err);
+
+    # Creating a stem plot
+    graphics.stem(x, y);
+
+    # Creating a hexbin plot
+    graphics.hexbin(x, y);
+
+    # Creating a polar plot
+    graphics.polar(theta, r);
+
+    # Creating a stream plot
+    graphics.streamplot(X, Y, u, v);
+
+    # Displaying a date plot
+    graphics.plot_date(dates, y);
+
+    # Displaying an event plot
+    graphics.eventplot(lines, colors=colors);
+
+    # Creating a step plot
+    graphics.step(x, y);
+
+    # Creating a filled plot
+    graphics.fill(x, y);
+
+    # Creating a stack plot
+    graphics.stackplot(range(10), data, labels=["A", "B", "C", "D", "E"]);
+
+    # Displaying an image with specified extent
+    graphics.imshow_extent(image, extent=(-3, 3, -3, 3));
+catch(exception)
+    console.raise.error(exception);
+end
+
+console.raise.output("Program executed successfully!");

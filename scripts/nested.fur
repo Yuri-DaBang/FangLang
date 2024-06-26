@@ -1,0 +1,45 @@
+owo cointer := 0;
+owo rinning := False;
+owo name := "John";
+
+// Rins a cointer for 5 seconds
+// Then stops the for loop when the cointer is completed
+for($rinning intiw True)
+    math.add($cointer, 1);
+    console.println("Rinning for $cointer seconds!");
+    time.sleep(1);
+
+    // Back to back ifs
+    if($name := "John")
+        console.println("Hi John!");
+    end
+
+    if($name := "John")
+        console.println("Hi again John!");
+    end
+
+    // Fur loop inside of a if inside of a if
+    if($name := "John")
+        console.println("Zone one!");
+
+        if($name := "John")
+            console.println("Zone two!");
+            owo subCointer := 0;
+
+            for($subCointer intiw 5)
+                math.add($subCointer, 1);
+                console.println("Meowing $subCointer");
+            end
+        end
+    end
+
+    // Sniff inside of a if but mainly just exit logic
+    if($cointer := 5)
+        owo rinning := True;
+        console.println("All finished!");
+
+        if($name := "John")
+            console.println("Goodbye John!");
+        end
+    end
+end

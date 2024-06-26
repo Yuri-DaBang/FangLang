@@ -1,0 +1,17 @@
+fn randomAnimal()
+    owo num := wandom(1, 3);
+
+    if($num := 1);
+        nudges "Fish";
+    end
+
+    if($num := 2);
+        nudges "Dog";
+    end
+
+    if($num := 3);
+        nudges "Cat";
+    end
+end
+
+console.println(randomAnimal());

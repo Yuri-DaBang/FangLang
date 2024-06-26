@@ -1,0 +1,21 @@
+fixed it := 66;
+fixed ti := 332;
+
+try
+    if ($it == $ti) {
+        console.raise.success("$it == $ti (IS EQUAL TO)");
+    } elif ($it != $ti) {
+        console.raise.success("$it != $ti (ISN'T EQUAL TO)");
+    } elif ($it >= $ti) {
+        console.raise.success("$it >= $ti (IS GREATER THAN OR EQUAL TO)");
+    } elif ($it <= $ti) {
+        console.raise.success("$it <= $ti (IS LESS THAN OR EQUAL TO)");
+    } else {
+        console.println("hallo");
+    }
+
+catch(exception)
+    console.raise.error("$exception");
+end
+
+console.raise.output("program runned!");

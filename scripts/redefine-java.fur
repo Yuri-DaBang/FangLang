@@ -1,0 +1,11 @@
+#redefine "public static void" fn
+#redefine System.out.println console.println
+#redefine ; ;
+#redefine { 
+#redefine } end
+
+public static void sayHello() {
+    System.out.println("Hello World!");
+}
+
+sayHello();

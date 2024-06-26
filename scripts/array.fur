@@ -1,0 +1,9 @@
+ono array := [
+  "Hello",
+  55, 
+  true
+];
+
+for($item in $array)
+  console.raise.success($item);
+end

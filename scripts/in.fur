@@ -1,0 +1,16 @@
+ono object := {
+"people": [
+{
+"name": "John",
+"age": 25,
+"test": {
+"color": "blue",
+"food": "taco"}
+},
+{"name": "Betty", "age": 26, "test": {"color": "blue", "food": "taco"}}, {"name": "Adam", "age": 20, "test": {"color": "blue", "food": "taco"}}]};
+for($name in $object["people"])
+    owo test := $name["name"];
+    owo age := $name["age"];
+    owo color := $name["test"]["color"];
+    console.println("Hello i am $test, ia ma $age years old , and my fav color is  $color");
+end

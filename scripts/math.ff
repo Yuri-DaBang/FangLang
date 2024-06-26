@@ -1,0 +1,8 @@
+ono number := 4;
+owo newNumber := 5 + 5;
+ono dividedNumber := 9 / 3;
+
+console.println($number + 25);
+console.println("Name: " + "John");
+console.println("New Number: " + $newNumber);
+console.println("Divided Number: " + $dividedNumber);

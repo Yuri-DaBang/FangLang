@@ -1,0 +1,9 @@
+ono duckyWucky := 5;
+
+try
+    $duckyWucky := 10;
+catch(exception)
+    console.println("oopsie woopsie! $exception");
+end
+
+console.println("$duckyWucky");

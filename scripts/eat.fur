@@ -1,0 +1,7 @@
+ono testValue := 5;
+console.println("$testValue");
+eat($testValue);
+
+if($testValue := None)
+    console.println("Test value was successfully inregistered");
+end

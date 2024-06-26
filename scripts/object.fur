@@ -1,0 +1,7 @@
+ono object := {"name": "John Smith", "age": 32, "city": "New York"};
+
+ono MY_AGE := "$object["age"]";
+
+ono dob := 2024 - $MY_AGE;
+
+console.println("Hello I'm $object["name"], i am $object["age"] years old, i was born on $dob, and i am from $object["city"].");

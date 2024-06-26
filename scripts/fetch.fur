@@ -1,0 +1,2 @@
+ono webText := fetchjson("https://jsonplaceholder.typicode.com/todos/1");
+console.println($webText);

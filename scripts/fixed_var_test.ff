@@ -1,0 +1,9 @@
+#redefine { 
+#redefine } end
+
+fn hello(hallostring) {
+	console.println($hallostring);
+
+}
+
+hello("fdsaf sdfd");

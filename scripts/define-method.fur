@@ -1,0 +1,10 @@
+#redefine System.out.println console.println
+#redefine { 
+#redefine } end
+
+fn greetUser() {
+    ono name := prompt("What is your name? ");
+    console.println("Well hello there, $name!");
+}
+
+greetUser();

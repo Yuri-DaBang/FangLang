@@ -1,0 +1,4 @@
+owo testValue := 5;
+console.println($testValue);
+$testValue := 10;
+console.println($testValue);

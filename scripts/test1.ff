@@ -1,0 +1,3 @@
+console.println("hello");
+console.raise.success("success");
+console.raise.error("success");

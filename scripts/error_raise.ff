@@ -1,0 +1,6 @@
+
+ono firetruck := "hello"
+
+console.println($firetruck);
+
+panic.warning("fdf asdf df d ");

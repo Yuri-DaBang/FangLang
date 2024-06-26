@@ -1,0 +1,2 @@
+owo name := prompt("Enter your name: ");
+console.println("Your name is $name.");
